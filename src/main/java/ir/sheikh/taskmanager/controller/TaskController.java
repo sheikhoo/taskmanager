@@ -11,7 +11,7 @@ import java.util.Optional;
 
 @CrossOrigin(origins = "http://localhost:4200", allowedHeaders = "*")
 @RestController
-@RequestMapping("/api/project")
+@RequestMapping("/api/task")
 @RequiredArgsConstructor
 public class TaskController {
     private final TaskService taskService;
